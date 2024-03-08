@@ -43,7 +43,7 @@ app.get("*", async (req, res) => {
   res.status(404).redirect('https://discord.gg/8x');
 });
 
-client.login("MTIxMzYxNDczODE4NjA0NzUxOA.GFbBhz.yCirEmOLiGalyvqwYo5wReDZLBa8aR8HU21qic");
+client.login("MTIxMzYxNDczODE4NjA0NzUxOA.GaMLEH.Na3o6uE9-8miFClKcJk8QshEjwB7X81_TCEvyc");
 
 // Configurando o servidor para ouvir a porta process.env.PORT
 const port = process.env.PORT || 3000;
